@@ -1,3 +1,4 @@
+```
 Odoo_backend/
 ├── config/
 │   └── db.js                     # MongoDB connection
@@ -24,3 +25,5 @@ Odoo_backend/
 ├── server.js                    # App entry point
 ├── package.json
 └── README.md
+
+```
