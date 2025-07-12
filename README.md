@@ -17,7 +17,8 @@ Odoo_backend/
 ├── models/
 │   ├── User.js                  # User schema
 │   ├── Swap.js                  # Swap schema
-│   └── Feedback.js              # Feedback schema (optional)
+│   ├── Feedback.js              # Feedback schema (optional)
+|   └── OTP.js             
 ├── routes/
 │   ├── auth.routes.js
 │   ├── user.routes.js
