@@ -53,14 +53,17 @@ Nodemailer for email-based OTP password reset
 
 Setup
 
-Clone the repository:git clone <repo-url>
+Clone the repository:
+git clone <repo-url>
 cd Odoo_backend
 
 
-Install dependencies:npm install
+Install dependencies:
+npm install
 
 
-Create a .env file with:MONGO_URI=your_mongodb_url_here
+Create a .env file with:
+MONGO_URI=your_mongodb_url_here
 JWT_SECRET=your_jwt_secret_key
 CLOUDINARY_CLOUD_NAME=your_cloud_name
 CLOUDINARY_API_KEY=your_api_key
@@ -70,10 +73,12 @@ GMAIL_PASS=your_gmail_app_password
 PORT=5000
 
 
-Start the server:npm start
+Start the server:
+npm start
 
 
-For development with auto-restart:npm run dev
+For development with auto-restart:
+npm run dev
 
 
 
@@ -112,5 +117,6 @@ PUT /api/admin/ban/:userId - Ban a user (requires admin auth)
 GET /api/admin/swap-stats - Get swap statistics (requires admin auth)
 POST /api/admin/message - Send platform-wide message (requires admin auth)
 GET /api/admin/reports - Download user activity reports (requires admin auth)
+
 
 
