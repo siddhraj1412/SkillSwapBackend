@@ -31,3 +31,27 @@ Odoo_backend/
 └── README.md
 
 ```
+
+# Skill Swap Platform
+
+A backend for a skill swap platform built for the Odoo Hackathon. Users can list skills, request swaps, provide feedback, and admins can manage content.
+
+## Features
+- User authentication (signup, login)
+- Profile management (name, location, profile photo, skills, availability, public/private)
+- Skill search and browsing
+- Swap request creation, acceptance, rejection, and cancellation
+- Post-swap feedback with ratings
+- Admin functionalities: reject skills, ban users, monitor swaps, send messages, generate reports
+
+## Tech Stack
+- Node.js, Express
+- MongoDB, Mongoose
+- Cloudinary for image uploads
+- JWT for authentication
+
+## Setup
+1. Clone the repository:
+   ```bash
+   git clone <repo-url>
+   cd Odoo_backend
