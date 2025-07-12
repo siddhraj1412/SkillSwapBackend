@@ -5,8 +5,11 @@ Backend for the oddo project
 #File Structure
 Odoo_backend/
 ├── config/
+
 │   └── db.js                     # MongoDB connection
+
 ├── controllers/
+
 │   ├── auth.controller.js       # Login, Register
 │   ├── user.controller.js       # Profile CRUD
 │   ├── swap.controller.js       # Swap request logic
